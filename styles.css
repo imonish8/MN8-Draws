@@ -1,0 +1,100 @@
+/* Reset CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color: #f4f4f4;
+    color: #131111;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #622424;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .photo img:hover {
+    transform: scale(1.05);
+  }
+  
+  #contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  
+  #contact form label {
+    font-weight: bold;
+  }
+  
+  #contact form input[type="text"],
+  #contact form input[type="email"],
+  #contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #contact form button {
+    padding: 0.5rem 1rem;
+    background-color: #572222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact form button:hover {
+    background-color: #555;
+  }
+
+  h2{
+    margin-left: 500px;
+  }
+  p{
+    margin-left: 500px;
+  }
